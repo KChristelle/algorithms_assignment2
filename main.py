@@ -31,7 +31,7 @@ while nbr_of_edges < nbr_of_nodes - 1:
         if min_spanning_tree[i]:
             for j in range(nbr_of_nodes):
                 if (not min_spanning_tree[j]) and graph[i][j]:
-                    # if node is not in MST and we take note of an edge
+                    # if node is not in MST list and we take note of an edge
                     if minimum > graph[i][j]:
                         minimum = graph[i][j]
                         x = i
