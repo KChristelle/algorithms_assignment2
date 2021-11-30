@@ -24,7 +24,7 @@ min_spanning_tree[0] = True
 while nbr_of_edges < nbr_of_nodes - 1:
     # initialize minimum to infinity for each edges
     minimum = infinity
-    # set two variables to zero
+    # set two variables to zero to print answer
     x = 0
     y = 0
     for i in range(nbr_of_nodes):
